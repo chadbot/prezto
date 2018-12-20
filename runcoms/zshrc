@@ -30,9 +30,10 @@ fi
 alias ll="ls -al -G"
 
 # custom apps
-alias rt="rtichoke"
+alias rad="radian"
 alias psh="pipenv shell"
 alias pipython="pipenv run ipython"
+alias pjl="pipenv run jupyter lab"
 
 # network drives (requires osxfuse with sshfs extension)
 alias mountuc="sshfs -o volname=UChicago_SSC uchicago: /Volumes/uchicago"
