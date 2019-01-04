@@ -34,8 +34,12 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
+  'python' \
+  'homebrew' \
+  'git' \
   'completion' \
-  'prompt'
+  'syntax-highlighting' \
+  'history-substring-search' \ 'prompt'
 
 #
 # Autosuggestions

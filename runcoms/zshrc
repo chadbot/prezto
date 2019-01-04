@@ -10,4 +10,33 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+
+# specify language
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# homebrew settings
+export HOMEBREW_EDITOR=subl
+export VISUAL=subl
+
+
+# Custom behavior in Sublime Text Terminus
+if test -n "$TERMINUS_SUBLIME"; then
+    bindkey "\e[1;3C" forward-word
+    bindkey "\e[1;3D" backward-word
+fi
+
+# general system
+alias ll="ls -al -G"
+
+# custom apps
+alias rad="radian"
+alias psh="pipenv shell"
+alias pipython="pipenv run ipython"
+alias pjl="pipenv run jupyter lab"
+
+# network drives (requires osxfuse with sshfs extension)
+alias mountuc="sshfs -o volname=UChicago_SSC uchicago: /Volumes/uchicago"
+alias mounthh="sshfs -o volname=Hammerhead hammerhead: /Volumes/hammerhead"
+alias mountdh="sshfs -o volname=Dreamhost dreamhost: /Volumes/dreamhost"
+
