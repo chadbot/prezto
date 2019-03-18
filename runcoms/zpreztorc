@@ -34,8 +34,15 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
-  'completion' \
+  'homebrew' \
   'git' \
+  'completion' \
+<<<<<<< HEAD
+  'git' \
+=======
+  'syntax-highlighting' \
+  'history-substring-search' \
+>>>>>>> 78c62fc2f1a9ec388dae18d4ff855154fa30f476
   'prompt'
 
 #

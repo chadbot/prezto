@@ -10,6 +10,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78c62fc2f1a9ec388dae18d4ff855154fa30f476
 # specify language
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -18,14 +22,22 @@ export LANG=en_US.UTF-8
 export HOMEBREW_EDITOR=subl
 export VISUAL=subl
 
+<<<<<<< HEAD
 # sublime text terminus settings
+=======
+
+# Custom behavior in Sublime Text Terminus
+>>>>>>> 78c62fc2f1a9ec388dae18d4ff855154fa30f476
 if test -n "$TERMINUS_SUBLIME"; then
     bindkey "\e[1;3C" forward-word
     bindkey "\e[1;3D" backward-word
 fi
 
+<<<<<<< HEAD
 ## aliases ##
 
+=======
+>>>>>>> 78c62fc2f1a9ec388dae18d4ff855154fa30f476
 # general system
 alias ll="ls -al -G"
 
