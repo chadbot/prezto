@@ -18,6 +18,9 @@ export LANG=en_US.UTF-8
 export HOMEBREW_EDITOR=subl
 export VISUAL=subl
 
+# jupyter lab settings
+export JUPYTERLAB_DIR=$HOME/.jupyter/lab
+
 # sublime text terminus settings
 
 # Custom behavior in Sublime Text Terminus
